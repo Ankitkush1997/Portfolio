@@ -4,16 +4,19 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: transparent;
   font-weight: 400;
-  color: $dark-blue-text;
-  padding: 0rem 5.6rem;
+  color: aliceblue;
+  width: 100%;
   margin-bottom: 0;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: -1;
+  position: absolute;
+  z-index: 1;
+  box-shadow: inset 100vw 34px rgba(0, 0, 0, 0.35);
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
@@ -65,4 +68,10 @@
       }
     }
   }
+}
+
+.background-video {
+  width: 100%;
+  object-fit: fill;
+  height: 100vh;
 }

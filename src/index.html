@@ -20,7 +20,10 @@
     <!-- Todo: put here your site title -->
     <title>Ankit Kushwah | Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="Ankit Kushawah,Ankit, [MongoDB, react, node, express, firebase, redux, html, css, javascript,  python]" />
+    <meta
+      name="keywords"
+      content="Ankit Kushawah,Ankit, [MongoDB, react, node, express, firebase, redux, html, css, javascript,  python]"
+    />
     <!-- Todo: improve your SEO by adding a small description of you -->
     <meta name="description" content="Ankit | Developer" />
 
@@ -43,8 +46,17 @@
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
+    <video
+      class="background-video"
+      autoplay="true"
+      loop="true"
+      playsinline
+      muted
+    >
+      <source src="../src/assets/background.mp4" type="video/mp4" />
+    </video>
+    <section id="hero" class="jumbotron" style="position: absolute">
+      <div class="container" style="z-index: 999999">
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Ankit Kushawah</span>
           <br />
@@ -73,18 +85,28 @@
                 width="350px"
                 src="assets/profile.jpg"
                 alt="Profile Image"
-                
               />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I grew up in Shikohabad Dist - Firozabad, Uttar Pradesh and I am a hardworking engineering graduate specializing in computer science engineering with an overall CGPA of 7.1 .along with my degree, I completed python, HTML, CSS, JavaScript, REACT courses on udemy. these all various technologies I learned have helped me develop my final year project called "College Enquiry Chatbot". It was during this project that I discovered that I am a team player and I can push my limits for the challenges. Nothing to add here, I study all the time.
+                Hi, my name is Ankit, and I'm a MERN stack developer with
+                expertise in building dynamic and responsive web applications. I
+                have experience with a variety of modern technologies, including
+                React.js, Firebase, AWS Lambda, and Node.js. I have extensive
+                knowledge of UI libraries such as Material UI, Chakra UI, Ant
+                Design, and Bootstrap, and have experience in implementing
+                responsive web design and SEO optimization techniques for React
+                applications. In addition, I have experience in implementing
+                secure password hashing techniques using Argon2, and in
+                encrypting and decrypting images using SHA-512 algorithm. I am
+                also proficient in MongoDB, Mongoose, Express.js, and RESTful
+                API development. I have a passion for creating elegant and
+                efficient web applications and am always eager to learn and
+                apply new technologies to improve my skills.
               </p>
-              <p class="about-wrapper__info-text">
-                Feel free to write me with any info, and job offers on the remote form.
-              </p>
+
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
@@ -112,34 +134,51 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Robo Friends</h3>
+                <h3 class="project-wrapper__text-title">
+                  Cachy - Beyond Flash Social
+                </h3>
                 <div>
                   <p class="mb-4">
-                    In this project we can saw that how we can populate the div using map method of array and how we can implement a element search functionality using state. 
-
+                    Cachy, a social media platform that lets you connect with
+                    friends, share your thoughts, and discover new content. Our
+                    application is built using React JS and leverages a variety
+                    of cutting-edge technologies to provide a fast and
+                    responsive user experience.
                   </p>
+                  <div class="mb-4" style="display: flex">
+                    <ul>
+                      <li>React JS</li>
+                      <li>Context API</li>
+                      <li>Image Encyption /Decryption using sha-512</li>
+                      <li>SASS</li>
+                      <li>Chakra UI, Material Design</li>
+                      <li>Bootstrap</li>
+                      <li>SSR</li>
+                      <li>SEO ( with Dynamic link genration)</li>
+                    </ul>
+                    <ul>
+                      <li>Password hashing using secure argon2</li>
+                      <li>Java and Node js RestfulAPI's (Backend)</li>
+                      <li>MongoDB, Redis, Postgres, MariaDB</li>
+                      <li>Microservices Backend Architecture</li>
+                      <li>AWS</li>
+                      <li>Cloudflare</li>
+                    </ul>
+                  </div>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://elastic-haibt-f01897.netlify.app/"
+                  href="https://cachy.com"
                 >
                   See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Ankitkush1997/Bots"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://elastic-haibt-f01897.netlify.app/" target="_blank">
+                <a rel="noreferrer" href="https://cachy.com" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -163,18 +202,37 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Texty Fire</h3>
+                <h3 class="project-wrapper__text-title">Square Clothing</h3>
                 <div>
                   <p class="mb-4">
-                    This tool genrelly used analyse the text or sentances of paragraph. we can evaluate the length of the text and how many characters are their in the text and many kinds of simulation we can do with this web app In this web I learned about the working of a React Functional Component.
-
+                    Square Clothing, a ecommerce project where you can find the
+                    hats, jackets, shoes, and other trendy items. This project
+                    is designed to make shopping easy. We understand that
+                    payment security is important to our customers, so we have
+                    implemented secure payment method
+                    <a href="https://stripe.com/">stripe</a> payment gateway.
                   </p>
+                  <div
+                    class="mb-4"
+                    style="display: flex; justify-content: space-around"
+                  >
+                    <ul>
+                      <li>React JS</li>
+                      <li>Firebase</li>
+                      <li>Context Hook</li>
+                    </ul>
+                    <ul>
+                      <li>Redux</li>
+                      <li>Stripe</li>
+                      <li>Styled Components ( UI Library)</li>
+                    </ul>
+                  </div>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://texty-fire.netlify.app/"
+                  href="https://squareclothing.netlify.app/"
                 >
                   See Live
                 </a>
@@ -182,7 +240,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/Ankitkush1997/Texty-Fire"
+                  href="https://github.com/Ankitkush1997/Square-Clothing"
                 >
                   Source Code
                 </a>
@@ -190,7 +248,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://texty-fire.netlify.app/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://squareclothing.netlify.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -214,12 +276,95 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Text Morpher</h3>
+                <div>
+                  <p class="mb-4">
+                    Introducing Text Morpher - the all-in-one text manipulation
+                    app. With Text Morpher, you can easily manipulate text to
+                    your liking, such as converting it to upper or lower case,
+                    removing extra spaces, and counting the number of words in a
+                    document. Whether you're a writer, student, or professional,
+                    Text Morpher is a must-have tool for anyone who works with
+                    text. With its user-friendly interface and powerful
+                    features, Text Morpher makes text manipulation a breeze. Try
+                    it today and see how it can help you save time and effort in
+                    your daily tasks.
+                  </p>
+                  <div class="mb-4" style="display: flex">
+                    <ul>
+                      <li>React JS</li>
+                      <li>Dark Mode functionality ( with hooks)</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://texty-morpher.netlify.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Ankitkush1997/Text-Morpher"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://texty-morpher.netlify.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project56.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">News Pedia</h3>
                 <div>
                   <p class="mb-4">
-                    So basically this is a news application which is made by using react. I also used a wep API known as the <a href="https://newsapi.org/">NewsAPI</a>. 
-                    Best functionality of this project is that the news are updated daily.
+                    So basically this is a news application which is made by
+                    using react. I also used a wep API known as the
+                    <a href="https://newsapi.org/">NewsAPI</a>. Best
+                    functionality of this project is that the news are updated
+                    daily. The live version shows prev news data , If you want
+                    fresh news you have to setup local env. and clone the source
+                    code.
                   </p>
+                  <div class="mb-4" style="display: flex">
+                    <ul>
+                      <li>React JS</li>
+                      <li>News API</li>
+                      <li>Bootstrap</li>
+                      <li>React-router</li>
+                    </ul>
+                  </div>
                 </div>
                 <a
                   rel="noreferrer"
@@ -241,7 +386,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="http://newspedia07.herokuapp.com/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://newspediastatic.netlify.app"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -260,29 +409,70 @@
             </div>
           </div>
           <!-- /END Project -->
-          <!-- Each .row is a project -->
+
+          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Cloudy Note</h3>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Robo Friends</h3>
                 <div>
                   <p class="mb-4">
-                    This is a beautiful clone of Google Keep Notes. this web app also made with the help of react and redux libraries 
+                    In this project we can saw that how we can populate the div
+                    using map method of array and how we can implement a element
+                    search functionality using state. I use
+                    <a
+                      href="https://robohash.org/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      RoboHash</a
+                    >
+                    api to make random card image.
                   </p>
+                  <div class="mb-4" style="display: flex">
+                    <ul>
+                      <li>React JS</li>
+                      <li>Robo HASH Api</li>
+                    </ul>
+                  </div>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://cloudynote1997.herokuapp.com/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://elastic-haibt-f01897.netlify.app/"
+                >
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Ankitkush1997/Cloudy-Note"">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Ankitkush1997/Bots"
+                >
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="http://cloudynote1997.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img alt="Img" class="img-fluid" src="./assets/project1.jpg" />
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://elastic-haibt-f01897.netlify.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project78.jpg"
+                    />
                   </div>
                 </a>
               </div>
@@ -292,13 +482,6 @@
         </div>
       </div>
     </section>
-    <!-- /END Projects Section -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-    
-    
 
     <!-- **** Contact Section **** -->
     <section id="contact">
@@ -325,13 +508,25 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="https://stackoverflow.com/users/14665559/ankit-kushwaha" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://stackoverflow.com/users/14665559/ankit-kushwaha"
+            target="_blank"
+          >
             <i class="fa fa-stack-overflow fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://www.linkedin.com/in/ankit-kushwah-6483041b0/" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/ankit-kushwah-6483041b0/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://github.com/Ankitkush1997" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://github.com/Ankitkush1997"
+            target="_blank"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
